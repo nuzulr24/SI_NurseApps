@@ -98,7 +98,12 @@ button:focus {
 /* // update */
 .icon-style {
     color: #e2e2e2;
-    font-size: 1.9em;
+    font-size: 1.5em;
+}
+
+.icon-active {
+    color: #132743;
+    font-size: 1.5em;
 }
 
 /* update ^^ */
