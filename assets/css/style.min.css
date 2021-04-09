@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 html {
@@ -15,7 +15,13 @@ body {
 /* header */
 .header-title {
     color: #2B2B2B;
+    font-size: 1.25rem;
+    font-weight: 600;
     font-family: 'Poppins', sans-serif;
+}
+
+.header-detail {
+    font-size: 0.8rem;
 }
 
 h5 {
@@ -107,3 +113,92 @@ button:focus {
 }
 
 /* update ^^ */
+.blog-title {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+h6.barbershop-title {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 4px;
+    font-family: 'Poppins', sans-serif;
+}
+
+p.barbershop-location.text-muted {
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #b8b8b8 !important;
+    font-family: 'Poppins', sans-serif;
+}
+
+.barber-list {
+    padding-bottom: .2rem!important;
+}
+
+.barber-card:hover {
+    background-color: #e2e2e2;
+}
+
+/* form */
+.bg-secondary {
+    background-color: #ededed!important;
+}
+
+input.form-control::placeholder {
+    color: #232323;
+}
+
+/* loader */
+.page {
+    display: none;
+}
+
+#loader {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 1;
+    width: 120px;
+    height: 120px;
+    margin: -76px 0 0 -76px;
+    border: 12px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 12px solid #132743;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+  }
+  
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  /* Add animation to "page content" */
+  .animate-bottom {
+    position: relative;
+    -webkit-animation-name: animatebottom;
+    -webkit-animation-duration: 1s;
+    animation-name: animatebottom;
+    animation-duration: 1s
+  }
+  
+  @-webkit-keyframes animatebottom {
+    from { bottom:-100px; opacity:0 } 
+    to { bottom:0px; opacity:1 }
+  }
+  
+  @keyframes animatebottom { 
+    from{ bottom:-100px; opacity:0 } 
+    to{ bottom:0; opacity:1 }
+  }
+  
+  #myDiv {
+    display: none;
+    text-align: center;
+  }
