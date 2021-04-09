@@ -95,3 +95,8 @@ button:focus {
     z-index: 1;
 }
 
+.icon-style {
+    color: #e2e2e2;
+    font-size: 3em;
+}
+
