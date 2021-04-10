@@ -2,7 +2,7 @@ $(document).ready(function () {
     var nav = $('.navbar');
 
     $(window).scroll(function () {
-        if ($(this).scrollTop() > 80) {
+        if ($(this).scrollTop() > 120) {
             nav.removeClass("fixed-bottom");
             nav.addClass('mt-3');
         } else {
