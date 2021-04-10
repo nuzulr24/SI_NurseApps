@@ -162,6 +162,25 @@ input.form-control::-ms-input-placeholder {
     color: #b8b8b8;
 }
 
+.card.bg-user-profile {
+    background: linear-gradient(129.37deg, #132743 0%, rgba(60, 105, 168, 0.6) 135.78%);
+    border-radius: 10px;
+    border: 0;
+}
+
+h6.user-name {
+    color: white;
+    font-family: 'Poppins';
+    font-weight: 600;
+}
+
+p.user-status {
+    font-family: 'Poppins';
+    font-weight: 400;
+    margin-top: -4px;
+    opacity: 0.7;
+}
+
 /* loader */
 .page {
     display: none;
