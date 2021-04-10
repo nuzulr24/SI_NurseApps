@@ -7,7 +7,7 @@ html {
 
 body {
     background-color: #f7f7f7;
-    margin: 0; 
+    margin: 0;
     font-family: 'Open Sans', sans-serif;
 
 }
@@ -133,7 +133,7 @@ p.barbershop-location.text-muted {
 }
 
 .barber-list {
-    padding-bottom: .2rem!important;
+    padding-bottom: .2rem !important;
 }
 
 .barber-card:hover {
@@ -142,11 +142,24 @@ p.barbershop-location.text-muted {
 
 /* form */
 .bg-secondary {
-    background-color: #ededed!important;
+    background-color: #ededed !important;
 }
 
 input.form-control::placeholder {
-    color: #232323;
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #b8b8b8;
+    opacity: 1;
+    /* Firefox */
+}
+
+input.form-control:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #b8b8b8;
+}
+
+input.form-control::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #b8b8b8;
 }
 
 /* loader */
@@ -155,50 +168,75 @@ input.form-control::placeholder {
 }
 
 #loader {
+    justify-content: center;
     position: absolute;
     left: 50%;
     top: 50%;
     z-index: 1;
-    width: 120px;
-    height: 120px;
-    margin: -76px 0 0 -76px;
+    width: 56px;
+    height: 56px;
+    margin: -36px 0 0 -36px;
     border: 12px solid #f3f3f3;
     border-radius: 50%;
     border-top: 12px solid #132743;
     -webkit-animation: spin 2s linear infinite;
     animation: spin 2s linear infinite;
-  }
-  
-  @-webkit-keyframes spin {
-    0% { -webkit-transform: rotate(0deg); }
-    100% { -webkit-transform: rotate(360deg); }
-  }
-  
-  @keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
-  }
-  
-  /* Add animation to "page content" */
-  .animate-bottom {
+}
+
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* Add animation to "page content" */
+.animate-bottom {
     position: relative;
     -webkit-animation-name: animatebottom;
     -webkit-animation-duration: 1s;
     animation-name: animatebottom;
     animation-duration: 1s
-  }
-  
-  @-webkit-keyframes animatebottom {
-    from { bottom:-100px; opacity:0 } 
-    to { bottom:0px; opacity:1 }
-  }
-  
-  @keyframes animatebottom { 
-    from{ bottom:-100px; opacity:0 } 
-    to{ bottom:0; opacity:1 }
-  }
-  
-  #myDiv {
+}
+
+@-webkit-keyframes animatebottom {
+    from {
+        bottom: -100px;
+        opacity: 0
+    }
+
+    to {
+        bottom: 0px;
+        opacity: 1
+    }
+}
+
+@keyframes animatebottom {
+    from {
+        bottom: -100px;
+        opacity: 0
+    }
+
+    to {
+        bottom: 0;
+        opacity: 1
+    }
+}
+
+#myDiv {
     display: none;
     text-align: center;
-  }
+}

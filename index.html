@@ -17,7 +17,7 @@
 <body onload="myFunction()">
     <div id="loader"></div>
 
-    <div id="page" style="display:none;">
+    <div id="page" style="display:none; scroll-direction: vertical; max-height: 650px; overflow-y: scroll; position: fixed;">
         <section class="header my-4 mt-2">
             <div class="container">
                 <h3 class="header-title mb-n1">Hello, Guest</h3>
@@ -137,36 +137,36 @@
                     </div>
             </div>
         </section>
-
-        <nav class="navbar navbar-dark bg-white navbar-expand fixed-bottom box-shadow">
-            <ul class="navbar-nav nav-justified w-100">
-                <li class="nav-item">
-                    <a href="index.html" class="nav-link">
-                        <!-- <ion-icon class="ion-active" size="large" name="home"></ion-icon> -->
-                        <i class="mdi mdi-view-dashboard icon-active"></i>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a href="history.html" class="nav-link">
-                        <!-- <ion-icon size="large" name="newspaper-outline"></ion-icon> -->
-                        <i class="mdi mdi-history icon-style"></i>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a href="search.html" class="nav-link">
-                        <!-- <ion-icon size="large" name="newspaper-outline"></ion-icon> -->
-                        <i class="mdi mdi-card-search-outline icon-style"></i>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a href="more.html" class="nav-link">
-                        <!-- <ion-icon size="large" name="ellipsis-horizontal-outline"></ion-icon> -->
-                        <i class="mdi mdi-account-circle-outline icon-style"></i>
-                    </a>
-                </li>
-            </ul>
-        </nav>
     </div>
+
+    <nav class="navbar navbar-dark bg-white navbar-expand fixed-bottom box-shadow py-1" style="border-radius: 30px 30px 0px 0px;">
+        <ul class="navbar-nav nav-justified w-100">
+            <li class="nav-item">
+                <a href="index.html" class="nav-link">
+                    <!-- <ion-icon class="ion-active" size="large" name="home"></ion-icon> -->
+                    <i class="mdi mdi-view-dashboard icon-active"></i>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="history.html" class="nav-link">
+                    <!-- <ion-icon size="large" name="newspaper-outline"></ion-icon> -->
+                    <i class="mdi mdi-history icon-style"></i>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="search.html" class="nav-link">
+                    <!-- <ion-icon size="large" name="newspaper-outline"></ion-icon> -->
+                    <i class="mdi mdi-card-search-outline icon-style"></i>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="more.html" class="nav-link">
+                    <!-- <ion-icon size="large" name="ellipsis-horizontal-outline"></ion-icon> -->
+                    <i class="mdi mdi-account-circle-outline icon-style"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
