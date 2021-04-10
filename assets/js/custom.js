@@ -4,8 +4,10 @@ $(document).ready(function () {
     $(window).scroll(function () {
         if ($(this).scrollTop() > 125) {
             nav.removeClass("fixed-bottom");
+            nav.addClass('mt-3');
         } else {
             nav.addClass("fixed-bottom");
+            nav.addClass('mt-3');
         }
     });
 });
