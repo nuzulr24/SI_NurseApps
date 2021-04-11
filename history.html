@@ -17,95 +17,137 @@
 <body onload="myFunction()">
     <div id="loader"></div>
 
-    <div id="page" style="display:none; height: 540px; overflow-y: scroll;">
-        <section class="blog my-4 mt-2">
-            <div class="container">
-                <h5 class="blog-title pb-2">Riwayat Transaksi</h5>
-                    <div class="barbershop">
-                        <ul class="list-group rounded">
-                            <a href="transaction-detail.html"
-                                class="border-0 my-2 bg-none list-group-item list-group-item-action d-flex justify-content-start align-items-center">
-                                <div class="mr-4">
-                                    <i class="mdi mdi-content-cut icon-active"></i>
-                                </div>
-                                <div class="flex-grow-1">
-                                    Zelda Barbershop
-                                    <br>
-                                    <small class="text-muted pt-n2">
-                                        #JEUSCKB001
-                                    </small>
-                                </div>
-                                <div class="flex-column text-right">
-                                    Rp 15.000
-                                </div>
-                            </a>
-                            <a href="transaction-detail.html"
-                                class="border-0 my-2 bg-none list-group-item list-group-item-action d-flex justify-content-start align-items-center">
-                                <div class="mr-4">
-                                    <i class="mdi mdi-content-cut icon-active"></i>
-                                </div>
-                                <div class="flex-grow-1">
-                                    Zelda Barbershop
-                                    <br>
-                                    <small class="text-muted pt-n2">
-                                        #JEUSCKB001
-                                    </small>
-                                </div>
-                                <div class="flex-column text-right">
-                                    Rp 15.000
-                                </div>
-                            </a>
-                            <a href="transaction-detail.html"
-                                class="border-0 my-2 bg-none list-group-item list-group-item-action d-flex justify-content-start align-items-center">
-                                <div class="mr-4">
-                                    <i class="mdi mdi-content-cut icon-active"></i>
-                                </div>
-                                <div class="flex-grow-1">
-                                    Zelda Barbershop
-                                    <br>
-                                    <small class="text-muted pt-n2">
-                                        #JEUSCKB001
-                                    </small>
-                                </div>
-                                <div class="flex-column text-right">
-                                    Rp 15.000
-                                </div>
-                            </a>
-                        </ul>
-                    </div>
-                </div>
-        </section>
+    <div style="display: none;" id="breadcrumb">
+        <div class="container mt-4">
+            <div class="d-flex justify-content-between bd-highlight mb-3">
+                <div class="p-2 bd-highlight mt-n1"><a href="index.html"><i class="mdi mdi-chevron-left icon-active"></i></a></div>
+                <div class="p-2 bd-highlight barber-profile-title">Riwayat Transaksi</div>
+                <div class="p-2 bd-highlight mt-n1">&nbsp;</div>
+            </div>
         </div>
+    </div>
 
-        <nav class="navbar navbar-dark bg-white navbar-expand fixed-bottom box-shadow py-1"
-            style="border-radius: 30px 30px 0px 0px;">
-            <ul class="navbar-nav nav-justified w-100">
-                <li class="nav-item">
-                    <a href="index.html" class="nav-link">
-                        <!-- <ion-icon class="ion-active" size="large" name="home"></ion-icon> -->
-                        <i class="mdi mdi-view-dashboard-outline icon-style"></i>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a href="history.html" class="nav-link">
-                        <!-- <ion-icon size="large" name="newspaper-outline"></ion-icon> -->
-                        <i class="mdi mdi-history icon-active"></i>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a href="search.html" class="nav-link">
-                        <!-- <ion-icon size="large" name="newspaper-outline"></ion-icon> -->
-                        <i class="mdi mdi-card-search-outline icon-style"></i>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a href="more.html" class="nav-link">
-                        <!-- <ion-icon size="large" name="ellipsis-horizontal-outline"></ion-icon> -->
-                        <i class="mdi mdi-account-circle-outline icon-style"></i>
-                    </a>
-                </li>
-            </ul>
-        </nav>
+    <div id="page" style="display:none; height: 540px; overflow-y: scroll;">
+        <section class="blog my-3">
+            <div class="container">
+                <div class="barbershop">
+                    <ul class="list-group rounded">
+                        <a href="transaction-detail.html"
+                            class="border-0 my-2 bg-none list-group-item list-group-item-action d-flex justify-content-start align-items-center">
+                            <div class="mr-4">
+                                <i class="mdi mdi-content-cut icon-active"></i>
+                            </div>
+                            <div class="flex-grow-1">
+                                Zelda Barbershop
+                                <br>
+                                <small class="text-muted pt-n2">
+                                    #JEUSCKB001
+                                </small>
+                            </div>
+                            <div class="flex-column text-right">
+                                Rp 15.000
+                            </div>
+                        </a>
+                        <a href="transaction-detail.html"
+                            class="border-0 my-2 bg-none list-group-item list-group-item-action d-flex justify-content-start align-items-center">
+                            <div class="mr-4">
+                                <i class="mdi mdi-content-cut icon-active"></i>
+                            </div>
+                            <div class="flex-grow-1">
+                                Zelda Barbershop
+                                <br>
+                                <small class="text-muted pt-n2">
+                                    #JEUSCKB001
+                                </small>
+                            </div>
+                            <div class="flex-column text-right">
+                                Rp 15.000
+                            </div>
+                        </a>
+                        <a href="transaction-detail.html"
+                            class="border-0 my-2 bg-none list-group-item list-group-item-action d-flex justify-content-start align-items-center">
+                            <div class="mr-4">
+                                <i class="mdi mdi-content-cut icon-active"></i>
+                            </div>
+                            <div class="flex-grow-1">
+                                Zelda Barbershop
+                                <br>
+                                <small class="text-muted pt-n2">
+                                    #JEUSCKB001
+                                </small>
+                            </div>
+                            <div class="flex-column text-right">
+                                Rp 15.000
+                            </div>
+                        </a>
+                        <a href="transaction-detail.html"
+                            class="border-0 my-2 bg-none list-group-item list-group-item-action d-flex justify-content-start align-items-center">
+                            <div class="mr-4">
+                                <i class="mdi mdi-content-cut icon-active"></i>
+                            </div>
+                            <div class="flex-grow-1">
+                                Zelda Barbershop
+                                <br>
+                                <small class="text-muted pt-n2">
+                                    #JEUSCKB001
+                                </small>
+                            </div>
+                            <div class="flex-column text-right">
+                                Rp 15.000
+                            </div>
+                        </a>
+                        <a href="transaction-detail.html"
+                            class="border-0 my-2 bg-none list-group-item list-group-item-action d-flex justify-content-start align-items-center">
+                            <div class="mr-4">
+                                <i class="mdi mdi-content-cut icon-active"></i>
+                            </div>
+                            <div class="flex-grow-1">
+                                Zelda Barbershop
+                                <br>
+                                <small class="text-muted pt-n2">
+                                    #JEUSCKB001
+                                </small>
+                            </div>
+                            <div class="flex-column text-right">
+                                Rp 15.000
+                            </div>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <section id="bottom-navigation" style="display: none;">
+        <nav class="navbar navbar-dark bg-white navbar-expand fixed-bottom box-shadow py-1">
+        <ul class="navbar-nav nav-justified w-100">
+            <li class="nav-item">
+                <a href="index.html" class="nav-link">
+                    <!-- <ion-icon class="ion-active" size="large" name="home"></ion-icon> -->
+                    <i class="mdi mdi-view-dashboard-outline icon-style"></i>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="history.html" class="nav-link">
+                    <!-- <ion-icon size="large" name="newspaper-outline"></ion-icon> -->
+                    <i class="mdi mdi-history icon-active"></i>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="search.html" class="nav-link">
+                    <!-- <ion-icon size="large" name="newspaper-outline"></ion-icon> -->
+                    <i class="mdi mdi-card-search-outline icon-style"></i>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="more.html" class="nav-link">
+                    <!-- <ion-icon size="large" name="ellipsis-horizontal-outline"></ion-icon> -->
+                    <i class="mdi mdi-account-circle-outline icon-style"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    </section>
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->

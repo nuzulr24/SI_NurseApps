@@ -22,6 +22,8 @@ function showPage() {
     document.getElementById("loader").style.display = "none";
     document.getElementById("page").style.display = "block";
     document.getElementById("bottom-navigation").style.display = "block";
+    var haha =document.getElementById("breadcrumb").style.display = "block";
+    console.log(haha);
 }
 
 $(".carousel").swipe({

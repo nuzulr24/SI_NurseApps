@@ -125,6 +125,21 @@ h6.barbershop-title {
     font-family: 'Poppins', sans-serif;
 }
 
+.barber-profile-title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+}
+
+.barber-name-profile {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.store-type {
+    font-size: 0.8rem;
+}
+
 p.barbershop-location.text-muted {
     font-size: 0.8rem;
     font-weight: 500;
@@ -132,12 +147,27 @@ p.barbershop-location.text-muted {
     font-family: 'Poppins', sans-serif;
 }
 
-.barber-list {
+a.barber-list {
     padding-bottom: .2rem !important;
+    text-decoration: none;
+    color: #232323;
 }
 
 .barber-card:hover {
     background-color: #e2e2e2;
+}
+
+.barber-img-profile {
+    width: 15% !important;
+    height: 15% !important;
+}
+
+@media only screen and (max-width: 768px)
+{
+    .barber-img-profile {
+        width: 25% !important;
+        height: 25% !important;
+    }
 }
 
 /* form */
